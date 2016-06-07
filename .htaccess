@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^resultado\/([a-z0-9-]+)$ exibe.php?resultado=$1
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*?)/?$ $1.php [L]
+
+ErrorDocument 404 /manipulador-de-glcs/404page.php

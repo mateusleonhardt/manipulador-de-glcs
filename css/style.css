@@ -1,0 +1,37 @@
+.remove-icon{
+	color: #EB1414;
+}
+
+.success-label{
+	margin-bottom: 0px;
+	padding-top: 7%;
+}
+
+.my-tags{
+	top:0px !important;
+}
+
+.img-error-msg{
+	position: absolute;
+	padding-left: 70%;
+	padding-top: 2%;
+}
+
+#conjProducoes{
+	height: 80px !important;
+}
+
+.break-word{word-wrap:break-word;}
+
+.alert-warning{
+	margin-top: 10px;
+}
+
+.growRow{
+	margin-bottom: 38%;
+}
+
+.footer{
+	color:#fff;
+	padding: 20px;
+}
